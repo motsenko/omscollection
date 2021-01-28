@@ -759,6 +759,16 @@ textarea {
   line-height: 150%;
 }
 
+.submenu__title a {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.submenu__title a:hover {
+  color: #790102;
+}
+
 .submenu__image img {
   width: 100%;
 }
@@ -2162,6 +2172,29 @@ textarea {
   margin-right: 5px;
 }
 
+.text-block {
+  padding: 90px 0 0;
+}
+
+.text-block h1,
+.text-block h2,
+.text-block h3,
+.text-block h4,
+.text-block p {
+  margin-bottom: 30px;
+}
+
+.text-block img {
+  display: inline-block;
+  width: 385px;
+  margin: 0 30px 0 0;
+  float: left;
+}
+
+.text-block p {
+  line-height: 200%;
+}
+
 @media (max-width: 1450px) {
   .submenu {
     width: 100%;
@@ -2332,6 +2365,10 @@ textarea {
 
   .catalog-banner {
     height: 250px;
+  }
+
+  .text-block {
+    padding: 70px 0 0;
   }
 }
 
@@ -2565,6 +2602,18 @@ textarea {
   .product__description {
     padding-left: 0;
   }
+
+  .text-block {
+    padding: 50px 0 0;
+  }
+
+  .text-block img {
+    width: 200px;
+  }
+
+  .text-block p {
+    line-height: 150%;
+  }
 }
 
 @media (max-width: 479.98px) {
@@ -2718,5 +2767,23 @@ textarea {
 
   .product__list li {
     font-size: 16px;
+  }
+
+  .text-block {
+    padding: 30px 0 0;
+  }
+
+  .text-block h1,
+  .text-block h2,
+  .text-block h3,
+  .text-block h4,
+  .text-block p {
+    margin-bottom: 20px;
+  }
+
+  .text-block img {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px 0;
   }
 }
